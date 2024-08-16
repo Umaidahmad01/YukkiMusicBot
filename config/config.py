@@ -135,14 +135,14 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # If you want your bot to setup the commands automatically in the bot's menu set it to true.
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
-SET_CMDS = getenv("SET_CMDS", False)
+SET_CMDS = getenv("SET_CMDS", "True")
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("STRING_SESSION", "BQF--m0AaxiduF9c2Rm_MRtPsRdKHr91hGIUZUj36ausjWvl3VZnAdVucz2fMskPsrS09OKVCw6afuJaIatzUZQ3F2L-kRR7ewNrP16-6nrMhW8KArQjO-TW0mgVuGfhCxnNwpBLzy9GYx22aBVvTYWZZ3eodlPuBncr6VzBav7PRyY1vzXl8zOa7iOizWxG449tILBcQYeV_jmCpUN-eVviD4RImsCeKVpc9gjgvoE3FBgu-ynPv5C_Y7OIZe9IQVcL8jmEu1XI2zezL7HtGV-vL8f90yKVYCiIJDEgMv4CW5Wa6iepBDw2j2h1cPSOxgEmcBzneeM4GuYF0cWfa4RHWS-6FwAAAAGOyxn_AQ")
+STRING2 = getenv("STRING_SESSION2", "BQF--m0AaxiduF9c2Rm_MRtPsRdKHr91hGIUZUj36ausjWvl3VZnAdVucz2fMskPsrS09OKVCw6afuJaIatzUZQ3F2L-kRR7ewNrP16-6nrMhW8KArQjO-TW0mgVuGfhCxnNwpBLzy9GYx22aBVvTYWZZ3eodlPuBncr6VzBav7PRyY1vzXl8zOa7iOizWxG449tILBcQYeV_jmCpUN-eVviD4RImsCeKVpc9gjgvoE3FBgu-ynPv5C_Y7OIZe9IQVcL8jmEu1XI2zezL7HtGV-vL8f90yKVYCiIJDEgMv4CW5Wa6iepBDw2j2h1cPSOxgEmcBzneeM4GuYF0cWfa4RHWS-6FwAAAAGOyxn_AQ")
+STRING3 = getenv("STRING_SESSION3", "BQF--m0AaxiduF9c2Rm_MRtPsRdKHr91hGIUZUj36ausjWvl3VZnAdVucz2fMskPsrS09OKVCw6afuJaIatzUZQ3F2L-kRR7ewNrP16-6nrMhW8KArQjO-TW0mgVuGfhCxnNwpBLzy9GYx22aBVvTYWZZ3eodlPuBncr6VzBav7PRyY1vzXl8zOa7iOizWxG449tILBcQYeV_jmCpUN-eVviD4RImsCeKVpc9gjgvoE3FBgu-ynPv5C_Y7OIZe9IQVcL8jmEu1XI2zezL7HtGV-vL8f90yKVYCiIJDEgMv4CW5Wa6iepBDw2j2h1cPSOxgEmcBzneeM4GuYF0cWfa4RHWS-6FwAAAAGOyxn_AQ")
+STRING4 = getenv("STRING_SESSION4", "BQF--m0AaxiduF9c2Rm_MRtPsRdKHr91hGIUZUj36ausjWvl3VZnAdVucz2fMskPsrS09OKVCw6afuJaIatzUZQ3F2L-kRR7ewNrP16-6nrMhW8KArQjO-TW0mgVuGfhCxnNwpBLzy9GYx22aBVvTYWZZ3eodlPuBncr6VzBav7PRyY1vzXl8zOa7iOizWxG449tILBcQYeV_jmCpUN-eVviD4RImsCeKVpc9gjgvoE3FBgu-ynPv5C_Y7OIZe9IQVcL8jmEu1XI2zezL7HtGV-vL8f90yKVYCiIJDEgMv4CW5Wa6iepBDw2j2h1cPSOxgEmcBzneeM4GuYF0cWfa4RHWS-6FwAAAAGOyxn_AQ")
+STRING5 = getenv("STRING_SESSION5", "BQF--m0AaxiduF9c2Rm_MRtPsRdKHr91hGIUZUj36ausjWvl3VZnAdVucz2fMskPsrS09OKVCw6afuJaIatzUZQ3F2L-kRR7ewNrP16-6nrMhW8KArQjO-TW0mgVuGfhCxnNwpBLzy9GYx22aBVvTYWZZ3eodlPuBncr6VzBav7PRyY1vzXl8zOa7iOizWxG449tILBcQYeV_jmCpUN-eVviD4RImsCeKVpc9gjgvoE3FBgu-ynPv5C_Y7OIZe9IQVcL8jmEu1XI2zezL7HtGV-vL8f90yKVYCiIJDEgMv4CW5Wa6iepBDw2j2h1cPSOxgEmcBzneeM4GuYF0cWfa4RHWS-6FwAAAAGOyxn_AQ")
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
